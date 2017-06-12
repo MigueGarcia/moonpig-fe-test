@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Moonpig Front End Test">
+    <meta name="author" content="Miguel Garcia">
+
+    <title>MoonPig Bookshop</title>
+
+    <link href="target/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div id="page-wrapper">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://www.moonpig.com/uk/">
+            <img src="./src/img/header_logo.png" alt="moonpig.com">
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="books-panel" data-component="restClient">
+        <form id="books-panel-form">
+          <h1>Moonpig Bookshop</h1>
+
+          <div class="form-group books-panel-url">
+            <input type="text" class="form-control" placeholder="Enter keyword to find your Book" required>
+          </div>
+        </form>
+
+        <div class="response-body">
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+    <script src="target/bundle.js"></script>
+  </body>
+</html>

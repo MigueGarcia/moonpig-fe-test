@@ -1,0 +1,67 @@
+body {
+  font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #e4f1fd;
+  margin: 0;
+}
+
+#page-wrapper {
+  overflow: hidden;
+}
+
+.navbar {
+  min-height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+
+  &:before {
+    display: table;
+    content: " ";
+  }
+
+  .navbar-header {
+    overflow: hidden;
+
+    .navbar-brand {
+      color: #133e69;
+      font-size: 20px;
+      float: left;
+      height: 130px;
+      padding-top: 20px;
+      line-height: 20px;
+
+      img {
+        display: block;
+        vertical-align: middle;
+        width: 298px;
+      }
+    }
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+
+  h1 {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+
+
+
+
